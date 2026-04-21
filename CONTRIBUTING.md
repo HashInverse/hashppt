@@ -1,11 +1,11 @@
-# Contributing to Presenton
+# Contributing to HashPPT
 
 Welcome! 🚀  
-Thanks for helping improve **Presenton — the open-source AI presentation generator.**
+Thanks for helping improve **HashPPT — the open-source AI presentation generator.**
 
 ## Quick Links
 
-- **GitHub:** https://github.com/presenton/presenton
+- **GitHub:** https://github.com/HashInverse/hashppt
 - **Docs:** https://docs.presenton.ai
 - **Website:** https://presenton.ai
 - **Discord:** https://discord.gg/9ZsKKxudNE
@@ -175,5 +175,5 @@ CODE_OF_CONDUCT.md
 
 ---
 
-Thanks for helping make **Presenton better for everyone.**
+Thanks for helping make **HashPPT better for everyone.**
 ```

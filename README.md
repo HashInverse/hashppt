@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./readme_assets/images/logo.png" alt="Presenton" />
+  <img src="./readme_assets/images/logo.png" alt="HashPPT" />
 </p>
 
 <p align="center">
@@ -10,18 +10,18 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/presenton/presenton/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue?style=flat" alt="Apache2.0" /></a>
-  <a href="https://github.com/presenton/presenton"><img src="https://img.shields.io/github/stars/presenton/presenton?style=flat" alt="Stars" /></a>
+  <a href="https://github.com/HashInverse/hashppt/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue?style=flat" alt="Apache2.0" /></a>
+  <a href="https://github.com/HashInverse/hashppt"><img src="https://img.shields.io/github/stars/HashInverse/hashppt?style=flat" alt="Stars" /></a>
   <a href="https://presenton.ai/"><img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat" alt="Platform" /></a>
 </p>
 
 # Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)
 
-### ✨ Why Presenton
+### ✨ Why HashPPT
 
 No SaaS lock-in · No forced subscriptions · Full control over models and data
 
-What makes Presenton different?
+What makes HashPPT different?
 
 - Fully **self-hosted**; Web (Docker) & Desktop (Mac, Windows & Linux)
 - Works with OpenAI, Gemini, Anthropic, Ollama, or custom models
@@ -33,7 +33,7 @@ What makes Presenton different?
 > **Star us!** A ⭐ shows your support and encourages us to keep building! 😇
 
 <p align="center">
-  <img src="./readme_assets/images/banner_bg.gif" alt="Presenton" />
+  <img src="./readme_assets/images/banner_bg.gif" alt="HashPPT" />
 </p>
 
 #
@@ -41,12 +41,12 @@ What makes Presenton different?
 ### 🎛 Features
 
 <p align="center">
-  <img src="./readme_assets/images/features-1.png" alt="Presenton Features" />
+  <img src="./readme_assets/images/features-1.png" alt="HashPPT Features" />
 </p>
 
 #
 
-### 💻 Presenton Desktop
+### 💻 HashPPT Desktop
 
 Create AI-powered presentations using your own model provider (BYOK) or run everything locally on your own machine for full control and data privacy.
 
@@ -89,7 +89,7 @@ Create AI-powered presentations using your own model provider (BYOK) or run ever
 
 </table>
 
-Presenton gives you complete control over your AI presentation workflow. Choose your models, customize your experience, and keep your data private.
+HashPPT gives you complete control over your AI presentation workflow. Choose your models, customize your experience, and keep your data private.
 
 - Custom Templates & Themes — Create unlimited presentation designs with HTML and Tailwind CSS
 - AI Template Generation — Create presentation templates from existing Powerpoint documents.
@@ -106,27 +106,27 @@ Presenton gives you complete control over your AI presentation workflow. Choose 
 - API Deployment — Host as your own API service for your team
 - Fully Open-Source — Apache 2.0 licensed, inspect, modify, and contribute
 - Docker Ready — One-command deployment with GPU support for local models
-- Electron Desktop App — Run Presenton as a native desktop application on Windows, macOS, and Linux (no browser required)
+- Electron Desktop App — Run HashPPT as a native desktop application on Windows, macOS, and Linux (no browser required)
 - Sign in with ChatGPT — Use your free or paid ChatGPT account to sign in and start creating presentations instantly — no separate API key required
 
 #
 
-### ☁️ Presenton Cloud
+### ☁️ HashPPT Cloud
 
-Run Presenton directly in your browser — no installation, no setup required. Start creating presentations instantly from anywhere.
+Run HashPPT directly in your browser — no installation, no setup required. Start creating presentations instantly from anywhere.
 
 <p align="center">
   <a href="https://presenton.ai">
-    <img src="./readme_assets/images/cloud-banner.png" alt="Presenton Cloud" />
+    <img src="./readme_assets/images/cloud-banner.png" alt="HashPPT Cloud" />
   </a>
 </p>
 
 #
 
-### ⚡ Running Presenton
+### ⚡ Running HashPPT
 
   <p>
-    You can run Presenton in two ways:
+    You can run HashPPT in two ways:
     <strong>Docker</strong> for a one-command setup without installing a local dev
     stack, or the <strong>Electron desktop app</strong> for a native app
     experience (ideal for development or offline use).
@@ -135,7 +135,7 @@ Run Presenton directly in your browser — no installation, no setup required. S
 **Option 1: Electron (Desktop App)**
 
    <p>
-    Run Presenton as a native desktop application. LLM and image provider
+    Run HashPPT as a native desktop application. LLM and image provider
     (API keys, etc.) can be configured in the app. The same environment variables
     used for Docker apply when running the bundled backend.
   </p>
@@ -172,23 +172,23 @@ Run Presenton directly in your browser — no installation, no setup required. S
 
 **Option 2: Docker**
 
-- Start Presenton
+- Start HashPPT
   Linux/MacOS (Bash/Zsh Shell):
   <pre><code class="language-bash">docker run -it --name presenton -p 5000:80 -v "./app_data:/app_data" ghcr.io/presenton/presenton:latest</code></pre>
 
   Windows (PowerShell):
   <pre><code class="language-bash">docker run -it --name presenton -p 5000:80 -v "${PWD}\app_data:/app_data" ghcr.io/presenton/presenton:latest</code></pre>
 
-- Open Presenton
+- Open HashPPT
   <p>
   Open <a href="http://localhost:5000">http://localhost:5000</a> in the browser
-  of your choice to use Presenton.
+  of your choice to use HashPPT.
   </p>
 
   <blockquote>
   <p>
     <strong>Note:</strong> You can replace <code>5000</code> with any other port
-    number of your choice to run Presenton on a different port number.
+    number of your choice to run HashPPT on a different port number.
   </p>
   </blockquote>
 
@@ -263,9 +263,9 @@ You can disable anonymous telemetry using the following environment variable:
 - Using OpenAI Compatible API
     <pre><code class="language-bash">docker run -it -p 5000:80 -e CAN_CHANGE_KEYS="false"  -e LLM="custom" -e CUSTOM_LLM_URL="http://*****" -e CUSTOM_LLM_API_KEY="*****" -e CUSTOM_MODEL="llama3.2:3b" -e IMAGE_PROVIDER="pexels" -e  PEXELS_API_KEY="********" -v "./app_data:/app_data" ghcr.io/presenton/presenton:latest</code></pre>
 
-- Running Presenton with GPU Support
+- Running HashPPT with GPU Support
   To use GPU acceleration with Ollama models, you need to install and configure the NVIDIA Container Toolkit. This allows Docker containers to access your NVIDIA GPU.
-  Once the NVIDIA Container Toolkit is installed and configured, you can run Presenton with GPU support by adding the `--gpus=all` flag:
+  Once the NVIDIA Container Toolkit is installed and configured, you can run HashPPT with GPU support by adding the `--gpus=all` flag:
     <pre><code class="language-bash">docker run -it --name presenton --gpus=all -p 5000:80 -e LLM="ollama" -e OLLAMA_MODEL="llama3.2:3b" -e IMAGE_PROVIDER="pexels" -e PEXELS_API_KEY="*******" -e CAN_CHANGE_KEYS="false" -v "./app_data:/app_data" ghcr.io/presenton/presenton:latest</code></pre>
 
 #

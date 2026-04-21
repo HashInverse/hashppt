@@ -1,12 +1,12 @@
 {
-  "name": "presenton",
-  "productName": "Presenton Open Source",
+  "name": "hashppt",
+  "productName": "HashPPT Open Source",
   "version": "0.7.3-beta",
   "exportVersion": "v0.2.2",
   "main": "app_dist/main.js",
   "description": "Open-Source AI Presentation Generator",
-  "homepage": "https://presenton.ai",
-  "repository": "https://github.com/presenton/presenton",
+  "homepage": "https://github.com/HashInverse/hashppt",
+  "repository": "https://github.com/HashInverse/hashppt",
   "keywords": [
     "electron",
     "electron-builder",
@@ -47,8 +47,8 @@
     "clean:build": "rm -rf resources/nextjs && rm -rf resources/fastapi && rm -rf app_dist"
   },
   "author": {
-    "name": "Presenton",
-    "email": "suraj@presenton.ai"
+    "name": "HashPPT",
+    "email": "support@hashppt.dev"
   },
   "dependencies": {
     "@llamaindex/liteparse": "^1.4.0",
