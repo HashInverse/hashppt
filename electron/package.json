@@ -48,7 +48,7 @@
   },
   "author": {
     "name": "HashPPT",
-    "email": "suraj@presenton.ai"
+    "email": "support@hashppt.dev"
   },
   "dependencies": {
     "@llamaindex/liteparse": "^1.4.0",
