@@ -4,7 +4,7 @@
   "version": "0.7.3-beta",
   "exportVersion": "v0.2.2",
   "main": "app_dist/main.js",
-  "description": "HashPPT: Open-Source AI Presentation Generator",
+  "description": "Open-Source AI Presentation Generator",
   "homepage": "https://github.com/HashInverse/hashppt",
   "repository": "https://github.com/HashInverse/hashppt",
   "keywords": [
